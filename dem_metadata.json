@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Absecon DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Absecon boundary, adaptively resampled to 7.0 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 2.1465123278352394,
+  "pixelSizeFeet": 7.042363280271172,
+  "adaptiveResolution": true,
+  "width": 3696,
+  "height": 4330,
+  "nodata": -999999,
+  "minMeters": -1.053,
+  "maxMeters": 19.5,
+  "meanMeters": 3.268,
+  "stdDevMeters": 4.65,
+  "minFeet": -3.454724409435,
+  "maxFeet": 63.9763779525,
+  "webMercatorBounds": [
+    -8296795.002553,
+    4777090.541869473,
+    -8288861.492989321,
+    4786384.940249
+  ],
+  "leafletBounds": [
+    [
+      39.3858405,
+      -74.5313776
+    ],
+    [
+      39.4503344,
+      -74.4601181
+    ]
+  ],
+  "files": {
+    "demCog": "absecon_dem_5ft_cog.tif",
+    "hillshadeCog": "absecon_hillshade_cog.tif",
+    "hillshadePng": "absecon_hillshade.png",
+    "boundaryGeojson": "absecon_boundary.geojson"
+  }
+}
